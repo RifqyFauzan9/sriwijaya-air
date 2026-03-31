@@ -18,13 +18,13 @@
 
   <!-- Navbar -->
   <header class="fixed top-0 left-0 w-full z-20">
-    <nav class="bg-white py-5 px-5 md:px-20 flex justify-between items-center">
+    <nav class="bg-white py-5 px-5 lg:px-20 flex justify-between items-center">
       <div class="flex items-center gap-2">
         <i class="bx bx-plane-take-off text-2xl md:text-3xl text-[#313161]"></i>
         <h1 class="text-xl text-[#313161] font-bold">Sriwijaya <spa class="text-[#EC3337]">Air</span></h1>
       </div>
 
-      <ul class="hidden md:flex gap-10 items-center">
+      <ul class="hidden md:flex gap-5 lg:gap-10 items-center">
         <li>
           <a href="#home" class="nav-link transition-colors duration-300 text-sm font-medium">Home</a>
         </li>
@@ -60,18 +60,18 @@
     <div class="absolute inset-0 bg-black/60"></div>
     <!-- Content -->
     <div
-      class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-8 md:px-0 w-full md:w-[50%] mx-auto">
-      <h1 class="text-4xl md:text-6xl font-bold mb-8">
+      class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-8 md:px-0 w-full md:w-[70%] xl:w-[50%] mx-auto">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 lg:mb-8">
         Elevate your Aviation Experience
       </h1>
-      <p class="text-lg mb-9 max-w-2xl text-gray-300 block md:hidden">
+      <p class="text-base mb-9 max-w-2xl text-gray-300 block lg:hidden">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, iure!
       </p>
-      <p class="text-lg mb-9 max-w-2xl text-gray-300 hidden md:block font-light">
+      <p class="text-lg mb-9 max-w-2xl text-gray-300 hidden lg:block font-light">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus odit quibusdam ratione ea id similique facere
         quis error rem repudiandae iste, iure autem minus sapiente at animi, quo ducimus quasi?
       </p>
-      <div class="flex w-full gap-3 justify-center">
+      <div class="flex flex-col md:flex-row w-full gap-3 justify-center">
         <a href="#"
           class="py-3 md:px-7 w-full md:w-fit rounded-md bg-[#313161] border border-transparent text-sm font-medium transition-all duration-300 hover:border-[#EC3337] hover:bg-transparent hover:text-[#EC3337]">
           Explore Services
@@ -87,35 +87,35 @@
 
   <!-- About Section -->
   <section id="about"
-    class="flex flex-col gap-7 md:gap-18 md:flex-row md:items-center md:justify-center py-40 px-6 md:px-0">
-    <img src="images/about-us.png" class="w-full h-60 md:h-100 md:w-120 rounded-xl" />
-    <div class="flex flex-col gap-3 max-w-xl">
+    class="flex flex-col gap-7 md:gap-16 lg:gap-8 xl:gap-12 lg:flex-row items-center lg:justify-center py-24 lg:py-40 px-6 lg:px-12">
+    <img src="images/about-us.png" class="w-full h-60 md:w-110 md:h-70 lg:h-80 rounded-xl xl:w-120 xl:h-90" />
+    <div class="flex flex-col gap-3 md:max-w-xl">
       <h3 class="text-sm font-semibold text-[#313161]">ABOUT US</h3>
-      <h1 class="text-4xl font-bold text-[#313161]">Decades of Exellence in <span class="text-[#EC3337]">Global
+      <h1 class="text-3xl xl:text-4xl font-bold text-[#313161]">Decades of Exellence in <span
+          class="text-[#EC3337]">Global
           Aviation</span></h1>
-      <p class="text-gray-500 font-light text-justify">
+      <p class="text-gray-500 font-light text-sm text-justify">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam commodi ab quia praesentium asperiores
         corporis. Cum pariatur sint eos, nisi dolore ratione at nam animi aut ea omnis voluptates similique.
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quae vel deleniti quos? Minima similique cum,
       </p>
-      <p class="text-gray-500 font-light text-justify">
+      <p class="text-gray-500 font-light text-sm text-justify">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam commodi ab quia praesentium asperiores
-        corporis. Cum pariatur sint eos, nisi dolore ratione at nam animi aut ea omnis voluptates similique.
         corporis. Cum pariatur sint eos, nisi dolore ratione at nam animi aut ea omnis voluptates similique.
       </p>
     </div>
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="flex flex-col bg-blue-100 py-40 px-6 md:px-28 gap-10">
+  <section id="services" class="flex flex-col bg-blue-100 lg:py-40 py-24 px-6 md:px-10 lg:px-28 gap-10">
     <div class="flex flex-col gap-4 text-center max-w-xl mx-auto">
       <h1 class="text-3xl font-bold text-[#313161]">Our Core Services</h1>
       <p class="text-gray-400 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dicta ad! Eos
-        facilis adipisci alias quidem quia, fuga excepturi eum?</p>
+      </p>
     </div>
 
-    <div class="flex flex-col md:flex-row gap-5">
-      <div class="rounded-lg bg-white px-6 py-12 shadow-sm flex flex-col items-start">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+      <div class="rounded-lg bg-white p-6 shadow-sm flex flex-col items-start">
         <div class="bg-[#313161] rounded-lg p-3 flex justify-center items-center mb-5 shadow-sm">
           <i class="bx bx-plane-alt text-xl text-white"></i>
         </div>
@@ -127,7 +127,7 @@
           Obcaecati, alias dolores!</p>
       </div>
 
-      <div class="rounded-lg bg-white px-6 py-12 shadow-sm flex flex-col items-start">
+      <div class="rounded-lg bg-white p-6 shadow-sm flex flex-col items-start">
         <div class="bg-[#313161] rounded-lg p-3 flex justify-center items-center mb-5 shadow-sm">
           <i class="bx bx-spanner text-xl text-white"></i>
         </div>
@@ -139,7 +139,7 @@
           Obcaecati, alias dolores!</p>
       </div>
 
-      <div class="rounded-lg bg-white px-6 py-12 shadow-sm flex flex-col items-start">
+      <div class="rounded-lg bg-white p-6 shadow-sm flex flex-col items-start">
         <div class="bg-[#313161] rounded-lg p-3 flex justify-center items-center mb-5 shadow-sm">
           <i class="bx bx-briefcase-alt text-xl text-white"></i>
         </div>
@@ -151,7 +151,7 @@
           Obcaecati, alias dolores!</p>
       </div>
 
-      <div class="rounded-lg bg-white px-6 py-12 shadow-sm flex flex-col items-start">
+      <div class="rounded-lg bg-white p-6 shadow-sm flex flex-col items-start">
         <div class="bg-[#313161] rounded-lg p-3 flex justify-center items-center mb-5 shadow-sm">
           <i class="bx bx-truck text-xl text-white"></i>
         </div>
@@ -166,16 +166,14 @@
   </section>
 
   <!-- Why Section -->
-  <section id="benefits" class="flex flex-col bg-white py-40 px-6 md:px-28 gap-10">
+  <section id="benefits" class="flex flex-col bg-white py-24 lg:py-40 px-6 md:px-10 lg:px-28 gap-10">
     <div class="flex flex-col gap-4 text-center max-w-xl mx-auto">
       <h1 class="text-3xl font-bold text-[#313161]">Why Choose Sriwijaya?</h1>
       <p class="text-gray-400 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dicta ad! Eos
-        facilis
-        adipisci alias quidem
-        quia, fuga excepturi eum?</p>
+      </p>
     </div>
 
-    <div class="flex flex-col md:flex-row gap-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       <div class="rounded-lg p-6 flex flex-col items-center">
         <div class="bg-blue-100 rounded-full p-3 flex justify-center items-center mb-4">
           <i class="bx bx-group text-4xl text-[#313161]"></i>
@@ -217,17 +215,15 @@
   </section>
 
   <!-- Get In Touch Section -->
-  <section id="contact" class="flex flex-col bg-blue-100 py-40 px-6 md:px-28 gap-10">
+  <section id="contact" class="flex flex-col bg-blue-100 py-24 lg:py-40 px-6 md:px-10 lg:px-28 gap-10">
     <div class="flex flex-col gap-4 text-center max-w-xl mx-auto">
       <h1 class="text-3xl font-bold text-[#313161]">Get in Touch</h1>
       <p class="text-gray-400 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dicta ad! Eos
-        facilis
-        adipisci alias quidem
-        quia, fuga excepturi eum?</p>
+      </p>
     </div>
 
-    <div class="flex flex-col md:flex-row gap-5">
-      <div class="rounded-lg bg-white py-10 shadow-sm flex flex-col items-center flex-1">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="rounded-lg bg-white p-10 shadow-sm flex flex-col items-center flex-1">
         <div class="bg-blue-100 rounded-full p-3 flex justify-center items-center mb-4">
           <i class="bx bx-envelope text-3xl text-[#313161]"></i>
         </div>
@@ -237,7 +233,7 @@
         <p class="text-gray-400 text-center">hardiana@sriwijaya.com</p>
       </div>
 
-      <div class="rounded-lg bg-white py-10 shadow-sm flex flex-col items-center flex-1">
+      <div class="rounded-lg bg-white p-10 shadow-sm flex flex-col items-center flex-1">
         <div class="bg-blue-100 rounded-full p-3 flex justify-center items-center mb-4">
           <i class="bx bx-phone text-3xl text-[#313161]"></i>
         </div>
@@ -247,7 +243,7 @@
         <p class="text-gray-400 text-center">+62 895 1995 3278</p>
       </div>
 
-      <div class="rounded-lg bg-white py-10 shadow-sm flex flex-col items-center flex-1">
+      <div class="rounded-lg bg-white p-10 shadow-sm flex flex-col items-center flex-1">
         <div class="bg-blue-100 rounded-full p-3 flex justify-center items-center mb-4">
           <i class="bx bx-location-alt-2 text-3xl text-[#313161]"></i>
         </div>
@@ -259,7 +255,7 @@
     </div>
   </section>
 
-  <footer class="flex flex-col py-16 px-6 md:px-28 bg-white gap-5 md:gap-8">
+  <footer class="flex flex-col py-16 px-6 md:px-10 lg:px-28 bg-white gap-5 md:gap-8">
     <div class="flex flex-col md:flex-row gap-5 md:gap-0 md:justify-between">
       <div class="flex items-center gap-2">
         <i class="bx bx-plane-take-off text-3xl text-black"></i>
